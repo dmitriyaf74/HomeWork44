@@ -57,10 +57,10 @@ namespace HomeWork44
                 var sw = new Stopwatch();
                 sw.Start();
                 if (ShowSeries)
-                    Console.WriteLine($"FibonacciInCicle");
+                    Console.WriteLine($"FibonacciInCycle");
                 FibonacciCicle(i);
                 sw.Stop();
-                var elapsed_Cicle = sw.Elapsed;
+                var elapsed_Cycle = sw.Elapsed;
 
                 Console.WriteLine($"");
 
@@ -75,7 +75,7 @@ namespace HomeWork44
                 var elapsed_Recursively = sw.Elapsed;
 
                 Console.WriteLine($"");
-                Console.WriteLine($"In Cicle {i,2:d}    ={elapsed_Cicle}");
+                Console.WriteLine($"In Cycle {i,2:d}    ={elapsed_Cycle}");
                 Console.WriteLine($"Recursively {i,2:d} ={elapsed_Recursively}");
 
             }
@@ -85,37 +85,37 @@ namespace HomeWork44
     /*
     Отдельно:
 
-    In Cicle  5    =00:00:00.0004154
+    In Cycle  5    =00:00:00.0004154
     Recursively  5 =00:00:00.0002393
 
-    In Cicle 10    =00:00:00.0003860
+    In Cycle 10    =00:00:00.0003860
     Recursively 10 =00:00:00.0002348
 
-    In Cicle 20    =00:00:00.0004409
+    In Cycle 20    =00:00:00.0004409
     Recursively 20 =00:00:00.0005761 
     
     
     С кешированием по возрастанию:
     
-    In Cicle  5    =00:00:00.0003783
+    In Cycle  5    =00:00:00.0003783
     Recursively  5 =00:00:00.0002170
 
-    In Cicle 10    =00:00:00.0000006
+    In Cycle 10    =00:00:00.0000006
     Recursively 10 =00:00:00.0000025
 
-    In Cicle 20    =00:00:00.0000002
+    In Cycle 20    =00:00:00.0000002
     Recursively 20 =00:00:00.0001450        
 
 
     С кешированием по убыванию:
     
-    In Cicle 20    =00:00:00.0004164
+    In Cycle 20    =00:00:00.0004164
     Recursively 20 =00:00:00.0004473
 
-    In Cicle 10    =00:00:00.0000005
+    In Cycle 10    =00:00:00.0000005
     Recursively 10 =00:00:00.0000021
 
-    In Cicle  5    =00:00:00.0000002
+    In Cycle  5    =00:00:00.0000002
     Recursively  5 =00:00:00.0000005        
 
     */
