@@ -26,9 +26,6 @@ namespace HomeWork44
                 for (int i = 1; i < N; i++)
                 {
                     (f, n_2, n_1) = (n_1 + n_2, n_1, n_1 + n_2);
-                    //f = n_1 + n_2;
-                    //n_2 = n_1;
-                    //n_1 = f;
                     if (ShowSeries)
                         Console.WriteLine($"{i+1,2:d} ={f,5:d}");
                 }
